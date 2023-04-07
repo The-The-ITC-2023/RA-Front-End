@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Roommate Application</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/style.php">
     </head>
     <body>
         
@@ -21,11 +21,12 @@
             <input type="text" name="education"><br>
             Major:<br>
             <input type="text" name="major"><br>
-            <input type="submit" name="submit" value="Submit">
-
+            <button type="submit" name="submit" value="Submit" id="submit"></button>
         </form>
-
+        <p id ="result">I hate minorities</p>
+        <script src="script.js"></script>
     </body>
+    
 </html>
 
 <?php
@@ -51,9 +52,10 @@
         }
         else {
             echo "NICE";
+            $nice = "nice";
         }
     }
 
 
-    
+
 ?>
