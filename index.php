@@ -8,19 +8,19 @@
         <form action="index.php" method="post">
             
             First Name:<br>
-            <input type="text" name="fname"><br>
+            <input type="text" name="fname"><br></input>
             Last Name:<br>
-            <input type="text" name="lname"><br>
+            <input type="text" name="lname"><br></input>
             Email:<br>
-            <input type="text" name="email"><br>
+            <input type="text" name="email"><br></input>
             Picture:<br>
-            <input type="image" name="picture"><br>
+            <input type="image" name="picture"><br></input>
             Bio:<br>
-            <input type="text" name="biography"><br>
+            <input type="text" name="biography"><br></input>
             University:<br>
-            <input type="text" name="education"><br>
+            <input type="text" name="education"><br></input>
             Major:<br>
-            <input type="text" name="major"><br>
+            <input type="text" name="major"><br></input>
             <button type="submit" name="submit" value="Submit" id="submit"></button>
         </form>
         <p id ="result">I hate minorities</p>
