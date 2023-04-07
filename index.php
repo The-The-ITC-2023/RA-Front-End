@@ -2,6 +2,7 @@
     <head>
         <title>Roommate Application</title>
         <link rel="stylesheet" href="styles/style.php">
+
     </head>
     <body>
         <form action="index.php" method="post">
@@ -15,7 +16,7 @@
             <input type="password" name="password"><br>
             Confirm Password:<br>
             <input type="password" name="cpassword"><br>
-            <input type="submit" name="submit" value="Submit" id="submit" onclick="changeP()">
+            <input type="submit" name="submit" value="Submit" id="submit">
         </form>
     </body>
     
@@ -41,7 +42,7 @@
         }
         else if(empty($lname)) {
             $lnameErr = "Please enter your last name";
-            echo "{$passwordErr}";
+            echo "{$lnameErr}";
         }
         else if(!preg_match("/^[a-zA-Z-' ]*$/",$lname)) {
             $lnameErr = "Last name must have only letters and white space";
