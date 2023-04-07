@@ -1,15 +1,12 @@
-var submit = document.querySelector("#submit");
+var submit = document.querySelector("submit");
 const phpOutput = "<?php echo $nice; ?>";
-const result = document.getElementById("result");
-console.log(result);
-console.log("running");
-console.log(submit);
+
+
+submit.addEventListener("click", updateUrMom);
 
 function updateUrMom () {
-    console.log("Ayo");
+    const result = document.getElementById("result");
     const phpOutput = "<?php echo $nice; ?>";
     result.innerHTML=phpOutput;
     console.log("Ayo");
 }
-
-submit.addEventListener("click", updateUrMom);
